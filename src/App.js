@@ -13,6 +13,7 @@ function App() {
       <Modal isOpen={modalIsOpen}>
         <h2>Modal Title</h2>
         <p>Modal Body</p>
+        <button onClick={() => setModalIsOpen(false)}>Close</button>
       </Modal>
     </div>
   );
